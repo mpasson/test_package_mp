@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling>=1.17.1", "hatch-vcs>=0.3.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "test_package_mp"
+description = "Test python package for learning"
+readme = "README.md"
+authors = [{ name = "Marco Passoni", email = "mpasson91@gmail.com" }]
+license = { text = "MIT" }
+repository = "https://github.com/mpasson/lekkersim"
+keywords = ['photonics', 'simulation', 'scattering matrix', 'photonic circuits']
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Education",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dynamic = ["version"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["toml>=0.10.2", "hatch-vcs==0.3.0", "pytest>=7.2.0"]
+doc = [
+  "sphinx>=5.3.0",
+  "sphinx-rtd-theme>=1.1.1",
+  "nbsphinx>=0.8.12",
+  "notebook>=6.5.2",
+]
+
+[tool.hatch.build]
+include = ["test_package_mp/*"]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.version.raw-options]
+version_scheme = "post-release"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "test_package_mp/_version.py"
