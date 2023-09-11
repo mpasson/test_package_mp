@@ -1,3 +1,6 @@
+"""This is a simple testing module
+"""
+
 __author__ = "Marco Passoni"
 
 try:
