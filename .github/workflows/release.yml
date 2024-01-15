@@ -40,5 +40,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create ${{ github.ref }} --title ${{ github.ref_name }} --notes ${{ steps.pypi.env.TAG_MESSAGE}} --draft
+          gh release create ${{ github.ref }} --title ${{ github.ref_name }} --notes ${{ env.TAG_MESSAGE}} --draft
           gh release upload ${{ github.ref }} dist/*
