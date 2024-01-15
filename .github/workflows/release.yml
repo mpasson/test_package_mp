@@ -38,5 +38,5 @@ jobs:
         run: |
           git fetch --tags --force
           git tag -l --format='%(contents:subject)' > release_notes.md
-          gh release create ${{ github.ref }} --title ${{ github.ref_name }} --notes-file release_notes.txt --draft
+          gh release create ${{ github.ref }} --title ${{ github.ref_name }} --notes-file release_notes.md --draft
           gh release upload ${{ github.ref }} dist/*
