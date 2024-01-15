@@ -4,9 +4,10 @@
 # Test Package MP
 
 My test package for learning. Main focus topic will be:
-1. GitHub Actions:
-    1. Running pytests
-    2. Building documentation on GitHub pages
-    3. Release package to Pypi
-2. set of pre-commit actions
+- [x] GitHub Actions:
+    - [x] Running pytests
+    - [x] Building documentation on GitHub pages
+    - [x] Release package to Pypi
+    - [x] Creare GitHub release from tag
+- [ ] set of pre-commit actions.
 
