@@ -34,11 +34,12 @@ jobs:
           python -m twine upload -r testpypi dist/*
       - name: Set tag message to environment variable
         run: |
+          git fecth --tags
           git tag -l --format='%(contents:subject)'
           echo "TAG_MESSAGE=$(git tag -l --format='%(contents:subject)')" >> $GITHUB_ENV
       - name: Create GitHub release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create ${{ github.ref }} --title ${{ github.ref_name }} --notes ${{ env.TAG_MESSAGE}} --draft
+          gh release create ${{ github.ref }} --title ${{ github.ref_name }} --notes "${{ env.TAG_MESSAGE}}" --draft
           gh release upload ${{ github.ref }} dist/*
