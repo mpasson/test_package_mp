@@ -32,3 +32,9 @@ jobs:
         run: |
           python -m build
           python -m twine upload -r testpypi dist/*
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create ${{ github.ref }} --title ${{ github.ref }} --notes "Release ${{ github.ref }}" --draft
+          gh release upload ${{ github.ref }} dist/*
