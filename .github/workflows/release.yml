@@ -40,6 +40,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo ${{ github.env.TAG_MESSAGE }}
-          gh release create ${{ github.ref }} --title ${{ github.ref_name }} --draft
+          gh release create ${{ github.ref }} --title ${{ github.ref_name }} --notes ${{github.env.TAG_MESSAGE}} --draft
           gh release upload ${{ github.ref }} dist/*
