@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.1.4 (2024-12-13)
+
+### Bug Fixes
+
+* fix: branch setting in release pipeline ([`1ff5801`](https://github.com/mpasson/test_package_mp/commit/1ff5801a1715b71a6ead31a52cb702bd164d83b1))
+
+
 ## v0.1.3 (2024-12-13)
 
 ### Bug Fixes
