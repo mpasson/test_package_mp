@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.1.8 (2024-12-13)
+
+### Bug Fixes
+
+* fix: typo release ci ([`9b3510f`](https://github.com/mpasson/test_package_mp/commit/9b3510f35c4b1ec095a93ca2773729980fa4ec0c))
+
+
 ## v0.1.7 (2024-12-13)
 
 ### Bug Fixes
