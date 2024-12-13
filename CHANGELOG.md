@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.1.5 (2024-12-13)
+
+### Bug Fixes
+
+* fix: set publish index to testpypi ([`3bc0ab2`](https://github.com/mpasson/test_package_mp/commit/3bc0ab2763855fbdf3a6e46bb7b3fd68e0e9fbb0))
+
+
 ## v0.1.4 (2024-12-13)
 
 ### Bug Fixes
