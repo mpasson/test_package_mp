@@ -1,6 +1,23 @@
 # CHANGELOG
 
 
+## v0.1.1 (2024-12-13)
+
+### Bug Fixes
+
+* fix: pattern matching for ignoring commit in changelog ([`db02364`](https://github.com/mpasson/test_package_mp/commit/db02364bb1692d93fef72b2dabfbbe24fae362ba))
+
+* fix: dummy commit for version bump ([`6b01d3e`](https://github.com/mpasson/test_package_mp/commit/6b01d3e310ad887eb19eb1284d5eba0aa959121d))
+
+### Continuous Integration
+
+* ci: updated pypi release to be triggered by github release ([`17cdeba`](https://github.com/mpasson/test_package_mp/commit/17cdebaf209eb598917ab966db98c14d11193710))
+
+### Unknown
+
+* Merge branch 'semantic-release-dev' ([`e3df8ac`](https://github.com/mpasson/test_package_mp/commit/e3df8ac97b9b587b4f7e2efe8ae2bd5a4de2c4c3))
+
+
 ## v0.1.0 (2024-12-13)
 
 ### Build System
