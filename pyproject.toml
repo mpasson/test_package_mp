@@ -49,5 +49,5 @@ version-file = "test_package_mp/_pversion.py"
 testpaths = ["pytest"]
 
 [tool.semantic_release.changelog]
-exclude_commit_patterns = ["**Merge**"]
+exclude_commit_patterns = ["Merge\b.*"]
 changelog_file = ""
