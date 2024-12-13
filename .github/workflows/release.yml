@@ -26,4 +26,4 @@ jobs:
           UV_PUBLISH_TOKEN: ${{ secrets.TWINE_API_TOKEN }}
         run: |
           uv build
-          uv publish
+          uv publish --index testpypi
