@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v0.1.3 (2024-12-13)
+
+### Bug Fixes
+
+* fix: dummy commit for version bump ([`1992406`](https://github.com/mpasson/test_package_mp/commit/199240655f7b5267aa44558f4c56dde89a2ae63a))
+
+### Continuous Integration
+
+* ci: test workflow event for release job ([`74dbeee`](https://github.com/mpasson/test_package_mp/commit/74dbeeedea56083bf14a9f273050c72c07cee000))
+
+
 ## v0.1.2 (2024-12-13)
 
 ### Bug Fixes
