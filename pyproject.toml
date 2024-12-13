@@ -8,8 +8,8 @@ description = "Test python package for learning"
 readme = "README.md"
 authors = [{ name = "Marco Passoni", email = "mpasson91@gmail.com" }]
 license = { text = "MIT" }
-repository = "https://github.com/mpasson/lekkersim"
-keywords = ['photonics', 'simulation', 'scattering matrix', 'photonic circuits']
+requires-python = ">=3.12"
+keywords = []
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -43,3 +43,6 @@ dev = [
 
 [tool.hatch.build.hooks.vcs]
 version-file = "test_package_mp/_pversion.py"
+
+[tool.pytest.ini_options]
+testpaths = ["pytest"]
