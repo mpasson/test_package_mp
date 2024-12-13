@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.1.7 (2024-12-13)
+
+### Bug Fixes
+
+* fix: moved uploading back to twine ([`5222b8e`](https://github.com/mpasson/test_package_mp/commit/5222b8ea78714a09758ef822d109fae929aa70dd))
+
+
 ## v0.1.6 (2024-12-13)
 
 ### Bug Fixes
