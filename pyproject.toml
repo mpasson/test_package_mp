@@ -47,3 +47,7 @@ version-file = "test_package_mp/_pversion.py"
 
 [tool.pytest.ini_options]
 testpaths = ["pytest"]
+
+[tool.semantic_release.changelog]
+exclude_commit_patterns = ["**Merge**"]
+changelog_file = ""

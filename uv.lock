@@ -1668,7 +1668,7 @@ wheels = [
 
 [[package]]
 name = "test-package-mp"
-version = "0.0.3.post2+gb6aaf0f.d20241213"
+version = "0.0.3.post5+gab457e3.d20241213"
 source = { editable = "." }
 
 [package.dev-dependencies]
