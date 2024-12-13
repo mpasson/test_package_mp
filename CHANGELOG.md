@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.1.2 (2024-12-13)
+
+### Bug Fixes
+
+* fix: removed changelog file from pyproject.toml ([`64a633d`](https://github.com/mpasson/test_package_mp/commit/64a633d4f0d1693f17c5d50a7260bb1e62a70273))
+
+
 ## v0.1.1 (2024-12-13)
 
 ### Bug Fixes
