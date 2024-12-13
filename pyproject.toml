@@ -50,4 +50,3 @@ testpaths = ["pytest"]
 
 [tool.semantic_release.changelog]
 exclude_commit_patterns = ["Merge\b.*"]
-changelog_file = ""
