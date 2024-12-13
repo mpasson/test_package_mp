@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.1.6 (2024-12-13)
+
+### Bug Fixes
+
+* fix: typo pyproject.toml ([`9574ae2`](https://github.com/mpasson/test_package_mp/commit/9574ae2bc1400a4031a8916bf9ca76a61f8272b5))
+
+
 ## v0.1.5 (2024-12-13)
 
 ### Bug Fixes
