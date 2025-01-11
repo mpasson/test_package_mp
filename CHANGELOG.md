@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.1.9 (2025-01-11)
+
+### Bug Fixes
+
+* fix: moving release back to vanilla python ([`2b287bc`](https://github.com/mpasson/test_package_mp/commit/2b287bc441278064954b303933e1ee7b2b603410))
+
+
 ## v0.1.8 (2024-12-13)
 
 ### Bug Fixes
