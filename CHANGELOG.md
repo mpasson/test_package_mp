@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.1.10 (2025-01-11)
+
+### Bug Fixes
+
+* fix: added fetch of tags release ([`1be4d73`](https://github.com/mpasson/test_package_mp/commit/1be4d7366be73d51db7fc865f6b6fad20fc0e058))
+
+
 ## v0.1.9 (2025-01-11)
 
 ### Bug Fixes
